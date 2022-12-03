@@ -159,8 +159,8 @@ server <- function(input, output, session) {
       opacity = 0.2,
       text = selected_breed,
       hoverinfo = "text",
-      width = 800,
-      height = 500,
+      width = 750,
+      height = 600,
       marker = list(size = 12,
                     color = 'grey',
                     opacity = 1,
@@ -193,8 +193,8 @@ server <- function(input, output, session) {
     text = "",
     hoverinfo = "text",
     opacity = 0.2,
-    width = 800,
-    height = 800
+    width = 750,
+    height = 600
   ) %>% 
     add_trace(
       r = c(0,0,0,0,0,0,0),
